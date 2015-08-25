@@ -1,0 +1,14 @@
+{
+  "name": "clientserver-base-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Dassé",
+  "license": "MIT",
+  "devDependencies": {
+    "source-map-support": "^0.3.2"
+  }
+}
