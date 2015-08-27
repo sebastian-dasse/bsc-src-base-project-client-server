@@ -15,3 +15,8 @@ Run specific tests with `test-only foo.bar.MyTest1 foo.bar.MyTest2`.
 
 Run `sbt` then `appJVM/run`.
 Open `localhost:8080` in browser.
+
+
+# IntelliJ
+
+IntelliJ does not support referencing to the shared directory. But this is just the IDE. The compiler understands the shared code. So it works as it is supposed to.
