@@ -30,7 +30,7 @@ val app = crossProject.settings(
   ),
   skip in packageJSDependencies := false,   // collect all JavaScript dependencies in one file
   scalaJSStage in Global := FastOptStage,   // to use Node.js or PhantomJS for tests
-  jsDependencies += RuntimeDOM,             // to use PhantomJS for tests
+  jsDependencies in Test += RuntimeDOM,     // to use PhantomJS for tests
 
   /* config for workbench plugin*/
   bootSnippet := "simple.Client().main(document.getElementById('contents'))",
